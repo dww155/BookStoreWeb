@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi" onload="createProduct()">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <script src="https://kit.fontawesome.com/a66b4f6f54.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./asset/sanpham.css">
+</head>
+<body>
+    <!--Các bạn tự thiết kế theo ý mình-->
+    <div id="product__detail" class="overlay">
+        <!-- <div class="product__detail__box">
+            <img src="./asset/img/Book22.jpg" alt="">
+            <div class="product__detail__box__text">
+                <h1 class="product__detail__box__text_items">ten san pham</h1>
+                <p class="product__detail__box__text_items">mo ta san pham</p>
+                <h2 class="product__detail__box__text_items">Giá cả</h2>
+                <button id="cart__btn">THÊM VÀO GIỎ</button>
+            </div>
+        </div> -->
+    </div>
+    <section id="Sanpham1">
+            <div class="Sanpham">
+            <div class="search-product">
+                <h1>khoảng giá</h1>
+                <div class="search-product-box">
+                    <input type="text" name="" id="" placeholder="từ">
+                    <span></span>
+                    <input type="text" name="" id="" placeholder="đến">
+                </div>
+                <input id="price_filter_btn" type="button" value="lọc">
+            </div>
+            <div class="container-product">
+                <div class="locthongtin">
+                    <p>Sắp xếp: </p>
+                   <select id="productCategory" name="productCategory">
+                        <option value="">Chọn phân loại</option>
+                        <option value="electronics">Điện tử</option>
+                        <option value="clothing">Thời trang</option>
+                        <option value="books">Sách</option>
+                        <option value="home_appliances">Đồ gia dụng</option>
+                    </select>
+                </div>
+                <div class="product__box"></div>
+                <div class="product__pagination">
+                    <div id="pagination_prev" class="content__pagination__btn">
+                        <i class="fa-solid fa-chevron-left fa-fw"></i>
+                    </div>
+                    <div id="pagination_number" class="content__pagination__btn1"></div>
+                    <div id="pagination_next" class="content__pagination__btn">
+                        <i class="fa-solid fa-chevron-right fa-fw"></i>
+                    </div>
+                </div>
+                <img src="./img/images.jpg" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./src/product.js"></script>
+<script src="./src/outproduct.js"></script>
+</html>
